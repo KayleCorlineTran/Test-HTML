@@ -1,0 +1,97 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  overflow-x: hidden; /* Ngăn chặn scroll ngang */
+}
+header,
+footer {
+  padding: 1% 10%;
+}
+footer {
+  background-color: #131f49;
+}
+button {
+  padding: 12px 24px;
+  border-radius: 27px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+.container {
+  padding: 0 7%;
+  margin: 10% 3%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #131f49;
+  font-weight: bold;
+  margin-bottom: 7%;
+}
+h2 {
+  color: #131f49;
+  font-size: 20px;
+  margin: 7% 0;
+}
+p {
+  color: #b3b7b9;
+  margin-bottom: 7%;
+}
+.stat-box {
+  background: white;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  border-style: none;
+  padding: 10% 10%;
+  height: 40vh;
+  width: 45vh;
+  margin-bottom: 15%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.checkout {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10% 5%;
+}
+
+.icon-circle {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6a6a, #ff00cc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.link {
+  font-size: 16px;
+  color: #ff416a;
+  margin: 7% 0;
+}

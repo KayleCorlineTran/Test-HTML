@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; /* Ngăn chặn scroll ngang */
+}
+body {
+  margin: 0;
+  font-family: "Chewy", system-ui;
+  background: linear-gradient(to top, #1a1e4a, #2e3a87);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 8rem;
+  margin-bottom: 2rem;
+}
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 1rem;
+}
+h1 {
+  font-family: "Delicious Handrawn", cursive;
+}
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 1rem;
+}
+
+.progress {
+  background: white;
+  width: 100px;
+  height: 12px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.bar {
+  background: #291457;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 3%;
+}
+section.word {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.box {
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: "Delicious Handrawn", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4187ff;
+}
+
+.box.empty {
+  background-color: rgba(65, 135, 255, 0.1);
+}
+
+ul.keyboard {
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 7px;
+}
+
+ul.keyboard li {
+  width: 60px;
+  height: 40px;
+  background: white;
+  color: #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.used {
+  opacity: 0.2;
+  pointer-events: none;
+}
