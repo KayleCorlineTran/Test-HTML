@@ -6,7 +6,7 @@ body {
 body {
   margin: 0;
   font-family: "Chewy", system-ui;
-  background: linear-gradient(to top, #1a1e4a, #2e3a87);
+  background: url('./background-desktop.svg');
   color: white;
   display: flex;
   flex-direction: column;
@@ -70,17 +70,19 @@ section.word {
 .box {
   width: 50px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size: 30px;
   font-family: "Delicious Handrawn", cursive;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #4187ff;
+  border-top: 3px solid #558ff5;
+  border-bottom: 3px solid #001842;
 }
 
 .box.empty {
-  background-color: rgba(65, 135, 255, 0.1);
+  opacity: 0.2;
 }
 
 ul.keyboard {
@@ -100,12 +102,11 @@ ul.keyboard li {
   height: 40px;
   background: white;
   color: #333;
-  border-radius: 8px;
+  border-radius: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .used {
   opacity: 0.2;
-  pointer-events: none;
 }
